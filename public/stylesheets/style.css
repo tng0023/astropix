@@ -1,7 +1,7 @@
 body {
-  padding: 50px;
+  padding: 200px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: whitesmoke;
+  background-color: #c1ccd6;
 }
 
 img{
@@ -11,4 +11,8 @@ img{
 
 a {
   color: #00B7FF;
+}
+
+p{
+  color: #ba140d;
 }
