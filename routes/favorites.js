@@ -21,4 +21,13 @@ router.post('/add', function(req, res, next){
   res.redirect('/favorites');
 });
 
+router.post('/delete', function(req,res,next){
+  var id = req.session.favorites;
+  favorites.findByIdAndRemove(id, function(err, favorites){
+    if(err){
+  return next(err);
+}
+});
+});
+
 module.exports=router;

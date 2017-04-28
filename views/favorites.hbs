@@ -6,9 +6,12 @@
       <img class="faveimiage" src="{{this.url}}"></a>
     <p class="favtitle">{{this.title}}</p>
     <p class="favdate">{{this.date}}</p>
+  <form class="" action="index.html" method="POST">
+    <input type="favorites/delete" class="btn btn-success" name="delete" value="Delete from favorites">
+  </form>
   </div>
 {{else}}
   <p>No favorites saved yet.</p>
 {{/each}}
 
-{{> navigation}} 
+{{> navigation}}
